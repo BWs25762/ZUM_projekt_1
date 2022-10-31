@@ -1,0 +1,17 @@
+szybciej
+wolniej
+maks
+min
+średnio
+auto
+zero
+dziesięć
+dwadzieścia
+trzydzieści
+czterdzieści
+pięćdziesiąt
+sześćdziesiąt
+siedemdziesiąt
+osiemdziesiąt
+dziewięćdziesiąt
+sto
