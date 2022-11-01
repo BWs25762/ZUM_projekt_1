@@ -1,9 +1,15 @@
 import os.path
 import subprocess
+import time
 from dataclasses import dataclass
+import time
 from typing import List
 from pyctcdecode import build_ctcdecoder
 from transformers import Wav2Vec2CTCTokenizer
+import logging
+
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -76,14 +82,21 @@ class LanguageDecoderBuilder:
             raise RuntimeError(completed_process.stderr)
 
     def _build_decoder(self, tokens: List[str]):
+        logger.info("building decoder")
         decoder = build_ctcdecoder(tokens, self.language_model_path, alpha=2.0, beta=-1.0)
+        logger.info("done building decoder!")
+        time.sleep(1)
+        logger.info("done sleeping after building decoder!")
         return decoder
 
-    def build_decoder(self, tokenizer: Wav2Vec2CTCTokenizer):
+    def build_language(self):
         commands = self._get_commands()
         possible_commands = self._generate_possible_commands(commands)
         self._save_language_text(possible_commands)
         self._generate_model_file()
+
+    def build_decoder(self, tokenizer: Wav2Vec2CTCTokenizer):
+        logger.info("updating tokens")
         tokens = [x[0] for x in sorted(tokenizer.get_vocab().items(), key=lambda x: x[1])]
         tokens[tokens.index('|')] = " "
         decoder = self._build_decoder(tokens)
