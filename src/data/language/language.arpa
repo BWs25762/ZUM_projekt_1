@@ -1,0 +1,115 @@
+
+\data\
+ngram 1=25
+ngram 2=74
+ngram 3=3
+
+\1-grams:
+-0.6438321	</s>
+-99	<s>	-1.319502
+-0.9981076	<unk>
+-2.359835	anuluj	-0.1891678
+-1.882714	auto	-0.4901978
+-1.882714	czterdzieści	-0.4901978
+-1.882714	dwadzieścia	-0.4901978
+-1.882714	dziesięć	-0.4901978
+-1.882714	dziewięćdziesiąt	-0.4901978
+-1.129387	kartę	-0.1916146
+-1.882714	maks	-0.4901978
+-1.882714	min	-0.4901978
+-1.129387	oba	-0.1916146
+-1.882714	osiemdziesiąt	-0.4901978
+-1.882714	pięćdziesiąt	-0.4901978
+-1.129387	procesor	-0.1916146
+-1.882714	siedemdziesiąt	-0.4901978
+-1.882714	sto	-0.4901978
+-1.882714	sześćdziesiąt	-0.4901978
+-1.882714	szybciej	-0.4901978
+-1.882714	trzydzieści	-0.4901978
+-0.6522653	ustaw	-1.145857
+-1.882714	wolniej	-0.4901978
+-1.882714	zero	-0.4901978
+-1.882714	średnio	-0.4901978
+
+\2-grams:
+-1.732394	<s> anuluj
+-0.02482358	<s> ustaw	0
+-0.30103	anuluj </s>
+-0.1249387	auto </s>
+-0.1249387	czterdzieści </s>
+-0.1249387	dwadzieścia </s>
+-0.1249387	dziesięć </s>
+-0.1249387	dziewięćdziesiąt </s>
+-1.531479	kartę auto
+-1.531479	kartę czterdzieści
+-1.531479	kartę dwadzieścia
+-1.531479	kartę dziesięć
+-1.531479	kartę dziewięćdziesiąt
+-1.531479	kartę maks
+-1.531479	kartę min
+-1.531479	kartę osiemdziesiąt
+-1.531479	kartę pięćdziesiąt
+-1.531479	kartę siedemdziesiąt
+-1.531479	kartę sto
+-1.531479	kartę sześćdziesiąt
+-1.531479	kartę szybciej
+-1.531479	kartę trzydzieści
+-1.531479	kartę wolniej
+-1.531479	kartę zero
+-1.531479	kartę średnio
+-0.1249387	maks </s>
+-0.1249387	min </s>
+-1.531479	oba auto
+-1.531479	oba czterdzieści
+-1.531479	oba dwadzieścia
+-1.531479	oba dziesięć
+-1.531479	oba dziewięćdziesiąt
+-1.531479	oba maks
+-1.531479	oba min
+-1.531479	oba osiemdziesiąt
+-1.531479	oba pięćdziesiąt
+-1.531479	oba siedemdziesiąt
+-1.531479	oba sto
+-1.531479	oba sześćdziesiąt
+-1.531479	oba szybciej
+-1.531479	oba trzydzieści
+-1.531479	oba wolniej
+-1.531479	oba zero
+-1.531479	oba średnio
+-0.1249387	osiemdziesiąt </s>
+-0.1249387	pięćdziesiąt </s>
+-1.531479	procesor auto
+-1.531479	procesor czterdzieści
+-1.531479	procesor dwadzieścia
+-1.531479	procesor dziesięć
+-1.531479	procesor dziewięćdziesiąt
+-1.531479	procesor maks
+-1.531479	procesor min
+-1.531479	procesor osiemdziesiąt
+-1.531479	procesor pięćdziesiąt
+-1.531479	procesor siedemdziesiąt
+-1.531479	procesor sto
+-1.531479	procesor sześćdziesiąt
+-1.531479	procesor szybciej
+-1.531479	procesor trzydzieści
+-1.531479	procesor wolniej
+-1.531479	procesor zero
+-1.531479	procesor średnio
+-0.1249387	siedemdziesiąt </s>
+-0.1249387	sto </s>
+-0.1249387	sześćdziesiąt </s>
+-0.1249387	szybciej </s>
+-0.1249387	trzydzieści </s>
+-0.5019448	ustaw kartę
+-0.5019448	ustaw oba
+-0.5019448	ustaw procesor
+-0.1249387	wolniej </s>
+-0.1249387	zero </s>
+-0.1249387	średnio </s>
+
+\3-grams:
+-0.5019448	<s> ustaw kartę
+-0.5019448	<s> ustaw oba
+-0.5019448	<s> ustaw procesor
+
+\end\
